@@ -5,6 +5,7 @@ import UncontrolledComponent from './Form/UncontrolledComponent'
 import Calculator from './Calculator/Calculator'
 import Inheritance from './CompositionVSInheritance/Inheritance'
 import Composition from './CompositionVSInheritance/Composition'
+import FilterableProductTable from './ThinkingInReact/FilterableProductTable'
 function App() {
   return (
     <div className='App'>
@@ -13,7 +14,8 @@ function App() {
       {/*<UncontrolledComponent />*/}
       {/*<Calculator />*/}
       {/*<Inheritance />*/}
-      <Composition />
+      {/*<Composition />*/}
+      <FilterableProductTable />
     </div>
   )
 }
